@@ -1,0 +1,913 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  padding: 5rem;
+  min-height: 100vh;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.banner .chamada .logo img {
+  width: 25rem;
+  margin-left: 3rem;
+}
+
+.banner .chamada .texto {
+  margin-top: 10rem;
+}
+
+.banner .chamada .texto h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #212121;
+}
+
+.banner .chamada .texto h1 span {
+  color: var(--cor-primaria);
+}
+
+.banner .chamada .item-banner {
+  background-image: url("../img/item-banner.png");
+  background-repeat: no-repeat;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-position-x: right;
+  padding: 0.25rem 12rem 0.25rem 5rem;
+  position: absolute;
+  left: 0;
+}
+
+.banner .chamada .item-banner p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.banner .chamada .botao-cta {
+  margin-top: 15rem;
+}
+
+.banner .chamada .botao-cta a {
+  border-radius: 2rem;
+  background-color: var(--cor-secundaria);
+  padding: 1rem 2rem;
+  color: #212121;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner .chamada .arrow-down-banner {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.banner .imagem-banner img {
+  position: absolute;
+  width: 45rem;
+  right: 30rem;
+  bottom: -2rem;
+}
+
+.banner .formulario {
+  background-color: var(--cor-secundaria);
+  border-radius: 0 0 1rem 1rem;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  right: 5rem;
+  width: 25%;
+  z-index: 12;
+}
+
+.banner .formulario .titulo {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.banner .formulario .titulo h1 {
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.banner .formulario .titulo h1 span {
+  font-size: 3.5rem;
+}
+
+.banner .formulario .titulo img {
+  margin-bottom: 1rem;
+}
+
+.banner .formulario form .campos {
+  margin-top: 2rem;
+}
+
+.banner .formulario form .campos label {
+  font-size: 1.2rem;
+  color: #212121;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.banner .formulario form .campos input {
+  display: block;
+  border-radius: 0.2rem;
+  height: 3rem;
+  width: 100%;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.banner .formulario form .campos select {
+  display: block;
+  border-radius: 0.2rem;
+  height: 3rem;
+  width: 100%;
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+}
+
+.banner .formulario form .bt-section {
+  margin-top: 3rem;
+}
+
+.banner .formulario form .bt-section button {
+  width: 100%;
+  border: none;
+  background-color: #cc0e10;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.banner .fixed {
+  position: fixed;
+}
+
+.energia {
+  padding: 5rem;
+  min-height: 100vh;
+  background-image: url("../img/energia.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.energia .titulo {
+  text-align: center;
+}
+
+.energia .titulo h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #212121;
+}
+
+.energia .titulo h1 span {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 6rem;
+}
+
+.energia .item {
+  margin-top: 10rem;
+}
+
+.energia .item .imagem img {
+  width: 80%;
+}
+
+.energia .item .texto h1 {
+  font-size: 2.5rem;
+  color: #212121;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.energia .item .texto h2 {
+  color: #212121;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.energia .item .texto h3 {
+  font-size: 2rem;
+  color: #f9f9f9;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.barra-cta {
+  padding: 5rem;
+  background-image: url("../img/barra-cta.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.barra-cta h1 {
+  color: var(--cor-primaria);
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.barra-cta h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.passos {
+  padding: 5rem;
+  min-height: 100vh;
+  background-image: url("../img/passos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.passos .titulo {
+  text-align: center;
+}
+
+.passos .titulo h1 {
+  font-size: 3rem;
+  color: #212121;
+  font-weight: 700;
+}
+
+.passos .titulo h1 span {
+  color: var(--cor-primaria);
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.passos .itens {
+  padding: 2rem;
+}
+
+.passos .itens .item {
+  margin-top: 5rem;
+}
+
+.passos .itens .item .imagem {
+  background-color: #212121;
+  border-radius: 50%;
+  padding: 3rem;
+  width: 80%;
+  position: relative;
+}
+
+.passos .itens .item .imagem img {
+  width: 100%;
+}
+
+.passos .itens .item .imagem .numero {
+  background-color: var(--cor-primaria);
+  position: absolute;
+  width: 5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 50%;
+  height: auto;
+}
+
+.passos .itens .item .imagem .numero h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 3.5rem;
+}
+
+.passos .itens .item .imagem .numero.direita {
+  left: 8rem;
+  top: 8rem;
+}
+
+.passos .itens .item .imagem .numero.esquerda {
+  right: 8rem;
+  top: 8rem;
+}
+
+.passos .itens .item .texto {
+  text-align: center;
+  width: 90%;
+}
+
+.passos .itens .item .texto h1 {
+  color: #212121;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.passos .itens .item .texto p {
+  font-size: 1.5rem;
+  color: #212121;
+  margin: 0.5rem;
+}
+
+.solucao {
+  padding: 5rem;
+  min-height: 115vh;
+  background-image: url("../img/solucao.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-y: top;
+}
+
+.solucao .titulo {
+  margin-top: 20rem;
+  margin-left: 18rem;
+}
+
+.solucao .titulo h1 {
+  color: var(--cor-secundaria);
+  font-weight: 900;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.solucao .sub-titulo {
+  margin-left: 25rem;
+  margin-top: 5rem;
+}
+
+.solucao .sub-titulo h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.solucao .sub-titulo h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.solucao .imagem-solucao {
+  display: none;
+}
+
+.solucao .imagem-solucao img {
+  position: relative;
+  left: -3rem;
+  width: 100%;
+  top: 4rem;
+}
+
+.infinity-bar {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.infinity-bar .tickerwrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: none;
+  background: var(--cor-secundaria);
+  max-width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.infinity-bar ul.list {
+  position: relative;
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.infinity-bar ul.list li {
+  display: inline-block;
+  padding-left: 1.25rem;
+}
+
+.infinity-bar ul.list li span {
+  display: inline-block;
+  padding: 1rem;
+  color: #212121;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.infinity-bar ul.list.cloned {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.perguntas {
+  padding: 8rem 5rem 5rem;
+  min-height: 100vh;
+  background-image: url("../img/perguntas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.perguntas .titulo {
+  text-align: center;
+}
+
+.perguntas .titulo h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #212121;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.perguntas .titulo h1 span {
+  background-color: #212121;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+}
+
+.perguntas .titulo h2 {
+  color: #212121;
+  font-weight: 500;
+}
+
+.perguntas .item {
+  margin-top: 5rem;
+}
+
+.perguntas .item .accordion {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.perguntas .item .accordion-item {
+  background-color: transparent;
+}
+
+.perguntas .item .accordion-item__button {
+  border: 0.25rem solid #212121;
+  display: block;
+  background: transparent;
+  width: 100%;
+  color: #212121;
+  text-align: left;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.perguntas .item .accordion-item__button:after {
+  content: "+";
+  float: left;
+  left: 1rem;
+  margin-right: 2rem;
+}
+
+.perguntas .item .accordion-item__button.active, .perguntas .item .accordion-item__button:hover {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.perguntas .item .accordion-item__button.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.perguntas .item .accordion-item__button.active:after {
+  content: "-";
+}
+
+.perguntas .item .accordion-item__content {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-color: #212121;
+  color: #ffffff;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.perguntas .item .accordion-item__content.active {
+  display: block;
+}
+
+.perguntas .item .accordion-item__content p {
+  padding: 1rem;
+}
+
+.vantagens {
+  padding: 5rem;
+  min-height: 100vh;
+  background-image: url("../img/vantagens.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-y: top;
+  background-size: cover;
+}
+
+.vantagens .titulo {
+  text-align: center;
+}
+
+.vantagens .titulo h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.vantagens .titulo h1 span {
+  color: #82944e;
+  background-color: #ffffff;
+  padding: 0.1rem 0.5rem;
+}
+
+.vantagens .titulo h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.vantagens .titulo h2 img {
+  vertical-align: middle;
+}
+
+.vantagens .itens {
+  margin-top: 5rem;
+}
+
+.vantagens .itens h3 {
+  color: #212121;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.vantagens .itens .item01 {
+  background-color: #82944e;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  min-height: 31rem;
+}
+
+.vantagens .itens .item01 h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.vantagens .itens .item01 img {
+  width: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.vantagens .itens .item01 img.item01-03 {
+  margin-top: 0;
+}
+
+.vantagens .itens .item01 p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.vantagens .itens .item01 p span {
+  font-weight: 800;
+}
+
+.vantagens .itens .item02 {
+  background-color: #82944e;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  min-height: 10rem;
+  margin-top: 1rem;
+}
+
+.vantagens .itens .item02 img {
+  width: 3rem;
+}
+
+.vantagens .itens .item02 p {
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.parceiros {
+  padding: 5rem;
+  background-image: url("../img/parceiros.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-y: top;
+  background-size: cover;
+}
+
+.parceiros .titulo {
+  text-align: center;
+}
+
+.parceiros .titulo h1 {
+  color: var(--cor-primaria);
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.parceiros .titulo h1 span {
+  background-color: #82944e;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+}
+
+.parceiros .titulo h2 {
+  color: #212121;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.parceiros .galeria-parceiros {
+  margin-top: 8rem;
+}
+
+.parceiros .galeria-parceiros .item {
+  margin: 0 1rem;
+}
+
+.parceiros .galeria-parceiros .item img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.parceiros .galeria-parceiros ul.slick-dots {
+  display: block;
+  margin-top: 1.875rem;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-left: 5%;
+  width: 80%;
+  display: none;
+}
+
+.parceiros .galeria-parceiros ul.slick-dots li {
+  display: inline-block;
+  padding: 0 0.3125rem;
+}
+
+.parceiros .galeria-parceiros ul.slick-dots li button {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: 50%;
+}
+
+.parceiros .galeria-parceiros ul.slick-dots li.slick-active button {
+  background: var(--cor-primaria);
+}
+
+.parceiros .galeria-parceiros .slick-prev {
+  padding: 1rem;
+  position: absolute;
+  top: 30%;
+  left: -1rem;
+  background: var(--cor-primaria);
+  border: none;
+  color: #ffffff;
+  font-size: 0;
+  z-index: 8;
+  border-radius: 50%;
+}
+
+.parceiros .galeria-parceiros .slick-prev:before {
+  display: block;
+  width: 2rem;
+  height: auto;
+  content: url("../icons/left-arrow.svg");
+}
+
+.parceiros .galeria-parceiros .slick-next {
+  padding: 1rem;
+  position: absolute;
+  top: 30%;
+  right: -1rem;
+  background: var(--cor-primaria);
+  border: none;
+  color: #ffffff;
+  font-size: 0;
+  z-index: 8;
+  border-radius: 50%;
+}
+
+.parceiros .galeria-parceiros .slick-next:before {
+  display: block;
+  width: 2rem;
+  height: auto;
+  content: url("../icons/right-arrow.svg");
+}
+
+.barra-fixa {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 15;
+  background: #212121;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.barra-fixa .row {
+  margin-bottom: 0;
+}
+
+.barra-fixa .row span {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.barra-fixa .row .btn-barra {
+  display: block;
+  width: 100%;
+  padding: 0.625rem;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  background-color: var(--cor-primaria);
+  border-radius: 0.3125rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border:none;
+}
+
+.footer {
+  padding: 1rem 3rem;
+  background-color: var(--cor-primaria);
+  position: relative;
+  z-index: 10;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.section-obrigado {
+  padding: 5rem;
+  min-height: 100vh;
+  background: url("../img/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-obrigado .logo img {
+  width: 25rem;
+}
+
+.section-obrigado h1 {
+  display: block;
+  margin-top: 5rem;
+  color: #212121;
+  font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.section-obrigado h2 {
+  display: block;
+  color: #212121;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.section-obrigado .btn-whatsapp {
+  display: inline-block;
+  margin-top: 1.875rem;
+  padding: 0.9375rem 2.5rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  background: var(--cor-primaria);
+  border: none;
+  border-radius: 1.5625rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/*# sourceMappingURL=app.css.map */
+
+.bg-primary{
+  background: var(--cor-primaria) !important;
+  border-color: var(--cor-primaria) !important;
+}
+
+.hide{
+  display: none;
+}
+
+.botao-whatsapp{
+font-family: "Montserrat", sans-serif;
+border-radius: 2rem;
+padding: 1rem 2rem;
+font-size: 1rem;
+font-weight: 900;
+text-transform: uppercase;
+text-align: center;
+text-decoration: none;
+margin: 0 0 2.5rem 2.5rem;
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+transform: scale(1);
+animation: pulse 1.8s infinite;
+border: none;
+}
+
+.botao-whatsapp i{
+  font-weight: 900;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+

@@ -1,0 +1,2163 @@
+.col-xs-12, col-sm-12{
+  width: 100% !important;
+}
+
+@media (min-width: 1024px) {
+  .barra-fixa {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .barra-fixa {
+    display: block;
+  }
+}
+
+@media (min-width: 1921px) {
+  .banner {
+    background-position-y: top;
+    min-height: 115vh;
+  }
+  .banner .imagem-banner img {
+    width: 50rem;
+    right: 40rem;
+    bottom: -2rem;
+  }
+  .banner .chamada .logo img {
+    width: 35rem;
+    margin-left: 3rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 5rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    bottom: 0;
+  }
+  .banner .chamada .item-banner {
+    background-position-x: left;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 2rem;
+  }
+  .banner .chamada .botao-cta a {
+    font-size: 1.5rem;
+    padding: 1.5rem 2rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: 1rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 2rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 3.5rem;
+  }
+  .banner .formulario .titulo h1 img {
+    width: 2rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 1.5rem;
+  }
+  .banner .formulario form .campos input {
+    height: 4rem;
+  }
+  .banner .formulario form .campos select {
+    height: 4rem;
+  }
+  .banner .formulario form .bt-section button {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+  }
+  .energia .item .imagem {
+    text-align: center;
+  }
+  .energia .item .imagem img {
+    width: 60%;
+  }
+  .passos .titulo h1 {
+    font-size: 4rem;
+  }
+  .passos .titulo h1 span {
+    font-size: 5rem;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 4rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 2rem;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 6rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 4rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 12rem;
+    top: 12rem;
+  }
+  .passos .itens .item .imagem .numero.numero.esquerda {
+    right: 12rem;
+    top: 12rem;
+  }
+  .solucao {
+    background-image: url("../img/solucao2560.jpg");
+    background-size: cover;
+  }
+  .solucao .titulo {
+    margin-top: 10rem;
+    margin-left: 30rem;
+  }
+  .solucao .titulo h1 {
+    font-size: 4rem;
+  }
+  .solucao .sub-titulo {
+    margin-left: 30rem;
+    margin-left: 40rem;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 4rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 2.5rem;
+  }
+  .infinity-bar ul.list li span {
+    font-size: 1.5rem;
+  }
+  .perguntas .titulo h1 {
+    font-size: 4rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 2rem;
+  }
+  .perguntas .item .accordion-item__button {
+    font-size: 2rem;
+  }
+  .perguntas .item .accordion-item__content p {
+    font-size: 1.5rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 4rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 2.5rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 2.25rem;
+  }
+  .vantagens .itens .item01 {
+    min-height: 38rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 2.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 2rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 2rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .parceiros .titulo h1 {
+    font-size: 4rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 2rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    padding: 1.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 3rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    padding: 1.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 3rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots {
+    margin-top: 3rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots li button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .footer {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+  }
+  .section-obrigado {
+    background-size: cover;
+  }
+  .section-obrigado .logo img {
+    width: 30rem;
+  }
+  .section-obrigado h1 {
+    font-size: 3rem;
+  }
+  .section-obrigado h2 {
+    font-size: 1.5rem;
+  }
+  .section-obrigado .btn-whatsapp {
+    font-size: 1.5rem;
+    padding: 1.5rem 4rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1919px) {
+  .banner {
+    padding: 4rem;
+  }
+  .banner .imagem-banner img {
+    width: 40rem;
+    right: 22rem;
+    bottom: 3rem;
+  }
+  .banner .logo img {
+    width: 20rem;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .banner .chamada .texto {
+    margin-top: 5rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 3.5rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 12rem 0.25rem 3rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1.2rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 10rem;
+  }
+  .banner .chamada .botao-cta a {
+    font-size: 1rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    bottom: 1rem;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2.5rem;
+  }
+  .banner .formulario {
+    right: 2rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: 5rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.75rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2.5rem;
+  }
+  .banner .formulario .titulo img {
+    width: 2rem;
+    margin-bottom: 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2.5rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2.5rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .energia {
+    padding: 4rem;
+    min-height: auto;
+  }
+  .energia .titulo h1 {
+    font-size: 2rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 5rem;
+  }
+  .energia .item {
+    margin-top: 5rem;
+  }
+  .energia .item .texto h1 {
+    font-size: 2rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1.5rem;
+  }
+  .energia .item .texto h3 {
+    font-size: 1.5rem;
+  }
+  .energia .item .imagem img {
+    width: 70%;
+  }
+  .barra-cta {
+    padding: 4rem;
+  }
+  .barra-cta h1 {
+    font-size: 2.5rem;
+  }
+  .barra-cta h2 {
+    font-size: 1.2rem;
+  }
+  .passos {
+    padding: 4rem;
+  }
+  .passos .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .passos .titulo h1 span {
+    font-size: 3rem;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 1.25rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 2rem;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 4rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 7rem;
+    top: 7rem;
+  }
+  .passos .itens .item .imagem .numero.esquerda {
+    right: 7rem;
+    top: 7rem;
+  }
+  .solucao {
+    padding: 4rem;
+    min-height: 100vh;
+    background-image: url("../img/solucao1600.jpg");
+    background-size: cover;
+  }
+  .solucao .titulo {
+    margin-top: 10rem;
+  }
+  .solucao .titulo h1 {
+    font-size: 3rem;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 2.25rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.5rem;
+  }
+  .perguntas {
+    padding: 5rem 4rem 5rem;
+  }
+  .perguntas .titulo h1 {
+    font-size: 3rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1.5rem;
+  }
+  .perguntas .item .accordion-item__button {
+    font-size: 1.2rem;
+  }
+  .vantagens {
+    padding: 4rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 3rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1.25rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 1.25rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 23rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1.25rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 1.5rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+  .parceiros {
+    padding: 4rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 1.2rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    padding: 0.8rem;
+    top: 25%;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 1.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    padding: 0.8rem;
+    top: 25%;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 1.5rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots li button {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .section-obrigado {
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .banner {
+    padding: 4rem;
+  }
+  .banner .imagem-banner img {
+    width: 35rem;
+    right: 22rem;
+    bottom: 3rem;
+  }
+  .banner .logo img {
+    width: 20rem;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .banner .chamada .texto {
+    margin-top: 5rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 3rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 12rem 0.25rem 3rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 8rem;
+  }
+  .banner .chamada .botao-cta a {
+    font-size: 0.8rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    bottom: 1rem;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2.5rem;
+  }
+  .banner .formulario {
+    right: 2rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: 5rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.75rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2.5rem;
+  }
+  .banner .formulario .titulo img {
+    width: 2rem;
+    margin-bottom: 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2.5rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2.5rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .energia {
+    padding: 4rem;
+    min-height: auto;
+  }
+  .energia .titulo h1 {
+    font-size: 2rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 5rem;
+  }
+  .energia .item {
+    margin-top: 5rem;
+  }
+  .energia .item .texto h1 {
+    font-size: 2rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1.5rem;
+  }
+  .energia .item .texto h3 {
+    font-size: 1.5rem;
+  }
+  .barra-cta {
+    padding: 4rem;
+  }
+  .barra-cta h1 {
+    font-size: 2.5rem;
+  }
+  .barra-cta h2 {
+    font-size: 1.2rem;
+  }
+  .passos {
+    padding: 4rem;
+  }
+  .passos .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .passos .titulo h1 span {
+    font-size: 3rem;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 1rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 2rem;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 4rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 6rem;
+    top: 6rem;
+  }
+  .passos .itens .item .imagem .numero.esquerda {
+    right: 6rem;
+    top: 6rem;
+  }
+  .solucao {
+    padding: 4rem;
+    min-height: 105vh;
+    background-size: cover;
+  }
+  .solucao .titulo {
+    margin-left: 15rem;
+  }
+  .solucao .titulo h1 {
+    font-size: 2.25rem;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 2rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.2rem;
+  }
+  .perguntas {
+    padding: 5rem 4rem 5rem;
+  }
+  .perguntas .titulo h1 {
+    font-size: 3rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1.5rem;
+  }
+  .perguntas .item .accordion-item__button {
+    font-size: 1.2rem;
+  }
+  .vantagens {
+    padding: 4rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 3rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1.25rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 1.25rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 21rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 1.5rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 1rem;
+  }
+  .parceiros {
+    padding: 4rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 1.2rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    padding: 0.8rem;
+    top: 25%;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 1.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    padding: 0.8rem;
+    top: 25%;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 1.5rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots li button {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .section-obrigado {
+    background-position-x: center;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .banner {
+    padding: 3rem;
+  }
+  .banner .imagem-banner img {
+    width: 30rem;
+    right: 20rem;
+    bottom: 0;
+  }
+  .banner .logo img {
+    width: 20rem;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  .banner .chamada .texto {
+    margin-top: 3rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 2.5rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 12rem 0.25rem 3rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 8rem;
+  }
+  .banner .chamada .botao-cta a {
+    font-size: 0.8rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    bottom: 1rem;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2.5rem;
+  }
+  .banner .formulario {
+    right: 2rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: -1rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.75rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2.5rem;
+  }
+  .banner .formulario .titulo img {
+    width: 1.5rem;
+    margin-bottom: 0;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2rem;
+  }
+  .banner .formulario form .bt-section {
+    margin-top: 1rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .energia {
+    padding: 3rem;
+  }
+  .energia .titulo h1 {
+    font-size: 2rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 5rem;
+  }
+  .energia .item {
+    margin-top: 5rem;
+  }
+  .energia .item .texto h1 {
+    font-size: 2rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1.5rem;
+  }
+  .energia .item .texto h3 {
+    font-size: 1.5rem;
+  }
+  .barra-cta {
+    padding: 3rem;
+  }
+  .barra-cta h1 {
+    font-size: 2rem;
+  }
+  .barra-cta h2 {
+    font-size: 1rem;
+  }
+  .passos {
+    padding: 3rem;
+  }
+  .passos .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .passos .titulo h1 span {
+    font-size: 3rem;
+  }
+  .passos .itens .item {
+    margin-top: 3rem;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 1rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 2rem;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 4rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 5rem;
+    top: 5rem;
+  }
+  .passos .itens .item .imagem .numero.esquerda {
+    right: 5rem;
+    top: 5rem;
+  }
+  .solucao {
+    padding: 3rem;
+    min-height: 125vh;
+    background-size: cover;
+  }
+  .solucao .titulo {
+    margin-left: 15rem;
+  }
+  .solucao .titulo h1 {
+    font-size: 2.25rem;
+  }
+  .solucao .sub-titulo {
+    margin-top: 2rem;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 2rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.2rem;
+  }
+  .perguntas {
+    padding: 5rem 3rem 5rem;
+  }
+  .perguntas .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1.2rem;
+  }
+  .perguntas .item .accordion-item__button {
+    font-size: 1.2rem;
+  }
+  .vantagens {
+    padding: 3rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 1rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 21rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 1.5rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 1rem;
+  }
+  .parceiros {
+    padding: 3rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 1.2rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    padding: 0.8rem;
+    top: 25%;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 1.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    padding: 0.8rem;
+    top: 25%;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 1.5rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots {
+    margin-left: 15%;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots li button {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .section-obrigado {
+    padding: 3rem;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .banner {
+    padding: 3rem;
+  }
+  .banner .chamada .logo img {
+    width: 20rem;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .banner .chamada .texto {
+    margin-top: 3rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 2.25rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 10rem 0.25rem 2rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 8rem;
+  }
+  .banner .chamada .botao-cta a {
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    padding: 0.75rem 1rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    bottom: 1rem;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2rem;
+  }
+  .banner .formulario {
+    position: absolute;
+    top: 0;
+    padding: 1.5rem;
+    right: 2rem;
+    width: 30%;
+  }
+  .banner .formulario .titulo {
+    margin-top: -1rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.25rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2rem;
+  }
+  .banner .formulario .titulo img {
+    display: none;
+  }
+  .banner .formulario form .campos {
+    margin-top: 1rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 0.8rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2rem;
+  }
+  .banner .formulario form .bt-section {
+    margin-top: 1rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .banner .fixed {
+    position: fixed;
+  }
+  .banner .imagem-banner img {
+    width: 25rem;
+    right: 18rem;
+    bottom: -2rem;
+  }
+  .energia {
+    padding: 4rem;
+  }
+  .energia .titulo h1 {
+    font-size: 2rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 5rem;
+  }
+  .energia .item {
+    margin-top: 5rem;
+  }
+  .energia .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1.2rem;
+  }
+  .energia .item .texto h3 {
+    font-size: 1.2rem;
+  }
+  .barra-cta {
+    padding: 4rem;
+  }
+  .barra-cta h1 {
+    font-size: 1.9rem;
+  }
+  .barra-cta h2 {
+    font-size: 1rem;
+  }
+  .passos {
+    padding: 4rem 4rem 0;
+  }
+  .passos .titulo h1 {
+    font-size: 2rem;
+  }
+  .passos .titulo h1 span {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 1.2rem;
+    width: 100%;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 3.5rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 2rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 5rem;
+    top: 5rem;
+  }
+  .passos .itens .item .imagem .numero.numero.esquerda {
+    right: 5rem;
+    top: 5rem;
+  }
+  .passos .itens .item .texto {
+    width: 100%;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 2rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 1rem;
+  }
+  .solucao {
+    padding: 4rem;
+    background-image: url("../img/solucao-mobile.jpg");
+    min-height: auto;
+  }
+  .solucao .titulo {
+    margin-top: 5rem;
+    margin-left: 0;
+  }
+  .solucao .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .solucao .sub-titulo {
+    margin-left: 15rem;
+    margin-top: 5rem;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 2rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.5rem;
+  }
+  .solucao .sub-titulo h3 br {
+    display: none;
+  }
+  .solucao .imagem-solucao {
+    display: block;
+  }
+  .solucao .imagem-solucao img {
+    position: absolute;
+    left: 0;
+    width: 20rem;
+    top: 18rem;
+  }
+  .perguntas {
+    padding: 5rem 4rem 5rem;
+  }
+  .perguntas .titulo h1 {
+    font-size: 2.25rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1.25rem;
+  }
+  .vantagens {
+    padding: 4rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1.15rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 1.25rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 28rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.2rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1.25rem;
+  }
+  .vantagens .itens .item01 p br {
+    display: none;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+    min-height: 14rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 2rem;
+  }
+  .vantagens .itens .item02 p {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .vantagens .itens .item02 p br {
+    display: none;
+  }
+  .parceiros {
+    padding: 4rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 2.25rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 3rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    top: 40%;
+    left: 0;
+    padding: 0.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 1rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    top: 40%;
+    right: 0;
+    padding: 0.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 1rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots {
+    display: none !important;
+  }
+  .footer {
+    font-size: 1rem;
+  }
+  .section-obrigado h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner {
+    padding: 2rem;
+  }
+  .banner .chamada .logo {
+    text-align: center;
+  }
+  .banner .chamada .logo img {
+    width: 20rem;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .banner .chamada .texto {
+    margin-top: 5rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 2.25rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 6rem 0.25rem 2rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 6rem;
+  }
+  .banner .chamada .botao-cta a {
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    padding: 0.75rem 1rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    bottom: 5rem;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2rem;
+  }
+  .banner .formulario {
+    position: relative;
+    top: -2rem;
+    right: 4rem;
+    width: 120%;
+    padding: 1rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: 5rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.25rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2rem;
+  }
+  .banner .formulario .titulo img {
+    margin-bottom: 0;
+    width: 2rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2.5rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2.5rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .banner .imagem-banner img {
+    width: 22rem;
+    right: 22rem;
+    bottom: 12rem;
+  }
+  .energia {
+    padding: 2rem;
+    min-height: 0;
+  }
+  .energia .titulo {
+    margin-top: 0;
+  }
+  .energia .titulo h1 {
+    font-size: 2rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 4rem;
+  }
+  .energia .item {
+    margin-top: 2rem;
+  }
+  .energia .item .imagem {
+    text-align: center;
+  }
+  .energia .item .texto {
+    margin-top: 2rem;
+  }
+  .energia .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1.25rem;
+  }
+  .energia .item .texto h2 br {
+    display: none;
+  }
+  .energia .item .texto h3 {
+    font-size: 1.25rem;
+  }
+  .barra-cta {
+    padding: 2rem;
+    background-position-x: center;
+  }
+  .barra-cta h1 {
+    font-size: 1.5rem;
+  }
+  .barra-cta h2 {
+    font-size: 1.25rem;
+  }
+  .passos {
+    padding: 2rem 2rem 0;
+  }
+  .passos .titulo h1 {
+    font-size: 2rem;
+  }
+  .passos .titulo h1 br {
+    display: none;
+  }
+  .passos .titulo h1 span {
+    font-size: 3rem;
+  }
+  .passos .itens .item {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 1.5rem;
+    margin-left: 1rem;
+    width: 100%;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 3.5rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 2rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 5rem;
+    top: 5rem;
+  }
+  .passos .itens .item .imagem .numero.esquerda {
+    right: 5rem;
+    top: 5rem;
+  }
+  .passos .itens .item .texto {
+    width: 100%;
+    margin-top: 0;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 2rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .solucao {
+    padding: 2rem;
+    min-height: auto;
+    background-image: url("../img/solucao-mobile.jpg");
+    background-position-x: center;
+  }
+  .solucao .titulo {
+    margin-top: 12rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .solucao .titulo h1 {
+    font-size: 3.5rem;
+  }
+  .solucao .sub-titulo {
+    margin-left: 0;
+    text-align: right;
+    position: relative;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 1.5rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.2rem;
+  }
+  .solucao .imagem-solucao {
+    display: inline-block;
+  }
+  .solucao .imagem-solucao img {
+    position: absolute;
+    width: 50%;
+    top: auto;
+    bottom: 0rem;
+  }
+  .perguntas {
+    padding: 5rem 2rem 5rem;
+    min-height: auto;
+  }
+  .perguntas .titulo h1 {
+    font-size: 2.5rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1.25rem;
+  }
+  .perguntas .item {
+    margin-top: 2rem;
+  }
+  .perguntas .item .accordion-item__button {
+    border: 0.15rem solid #212121;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+  }
+  .perguntas .item .accordion-item__button:after {
+    margin-right: 0.5rem;
+  }
+  .perguntas .item .accordion-item__content p {
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+  .vantagens {
+    padding: 2rem 2rem 5rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1.25rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 0.75rem;
+  }
+  .vantagens .itens {
+    margin-top: 3rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 22rem;
+    margin-bottom: 2rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+    min-height: 12rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 2rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 1rem;
+  }
+  .parceiros {
+    padding: 2rem 2rem 5rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 2.5rem;
+    line-height: 1rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 1.5rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 3rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    top: 25%;
+    left: -1rem;
+    padding: 1rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 2rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    top: 25%;
+    right: -1rem;
+    padding: 1rem;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 2rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots {
+    display: block;
+  }
+  .footer {
+    font-size: 1.2rem;
+  }
+  .section-obrigado h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 767px) {
+  .ordem01 {
+    -webkit-box-ordinal-group: 2 !important;
+        -ms-flex-order: 1 !important;
+            order: 1 !important;
+  }
+  .ordem02 {
+    -webkit-box-ordinal-group: 3 !important;
+        -ms-flex-order: 2 !important;
+            order: 2 !important;
+  }
+  .banner {
+    padding: 2rem;
+  }
+  .banner .chamada .logo {
+    text-align: center;
+  }
+  .banner .chamada .logo img {
+    width: 15rem;
+    margin-left: 0;
+  }
+  .banner .chamada .texto {
+    margin-top: 5rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 2rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 6rem 0.25rem 2rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 6rem;
+  }
+  .banner .chamada .botao-cta a {
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    padding: 0.75rem 1rem;
+  }
+  .banner .chamada .arrow-down-banner {
+    display: none;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2rem;
+  }
+  .banner .formulario {
+    position: relative;
+    top: 5rem;
+    right: 0;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: 2rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.25rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2rem;
+  }
+  .banner .formulario .titulo img {
+    margin-bottom: 0;
+    width: 2rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2.5rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2.5rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .energia {
+    padding: 2rem;
+  }
+  .energia .titulo {
+    margin-top: 5rem;
+  }
+  .energia .titulo h1 {
+    font-size: 1.5rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 3rem;
+  }
+  .energia .item {
+    margin-top: 2rem;
+  }
+  .energia .item .imagem {
+    text-align: center;
+  }
+  .energia .item .texto {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .energia .item .texto h1 {
+    font-size: 1.5rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1.25rem;
+  }
+  .energia .item .texto h2 br {
+    display: none;
+  }
+  .energia .item .texto h3 {
+    font-size: 1.25rem;
+  }
+  .barra-cta {
+    padding: 2rem;
+    background-position-x: center;
+  }
+  .barra-cta h1 {
+    font-size: 1.5rem;
+  }
+  .barra-cta h2 {
+    font-size: 1.25rem;
+  }
+  .passos {
+    padding: 2rem 2rem 0;
+  }
+  .passos .titulo h1 {
+    font-size: 1.5rem;
+  }
+  .passos .titulo h1 br {
+    display: none;
+  }
+  .passos .titulo h1 span {
+    font-size: 2rem;
+  }
+  .passos .itens .item {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 2rem;
+    margin-left: 1rem;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 4rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 10rem;
+    top: 10rem;
+  }
+  .passos .itens .item .imagem .numero.esquerda {
+    right: 10rem;
+    top: 10rem;
+  }
+  .passos .itens .item .texto {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 2rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .solucao {
+    padding: 2rem;
+    min-height: 85vh;
+    background-image: url("../img/solucao-mobile.jpg");
+  }
+  .solucao .titulo {
+    margin-top: 5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .solucao .titulo h1 {
+    font-size: 2.25rem;
+  }
+  .solucao .sub-titulo {
+    margin-left: 0;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 1.5rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.2rem;
+  }
+  .solucao .imagem-solucao {
+    display: block;
+  }
+  .perguntas {
+    padding: 5rem 2rem 5rem;
+    min-height: 80vh;
+  }
+  .perguntas .titulo h1 {
+    font-size: 2rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1rem;
+  }
+  .perguntas .titulo h2 br {
+    display: none;
+  }
+  .perguntas .item {
+    margin-top: 2rem;
+  }
+  .perguntas .item .accordion-item__button {
+    border: 0.15rem solid #212121;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .perguntas .item .accordion-item__button:after {
+    margin-right: 0.25rem;
+  }
+  .perguntas .item .accordion-item__content p {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .vantagens {
+    padding: 2rem 2rem 5rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .vantagens .titulo h1 br {
+    display: none;
+  }
+  .vantagens .titulo h2 {
+    font-size: 1rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 0.7rem;
+  }
+  .vantagens .itens {
+    margin-top: 3rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 20rem;
+    margin-bottom: 2rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 2rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 1rem;
+  }
+  .parceiros {
+    padding: 2rem 2rem 5rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 1.2rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 3rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    top: 40%;
+    left: 0;
+    padding: 0.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 1rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    top: 40%;
+    right: 0;
+    padding: 0.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 1rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots {
+    display: none !important;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+  .section-obrigado {
+    padding: 2rem;
+    background-position-x: left;
+  }
+  .section-obrigado .logo img {
+    width: 17rem;
+  }
+  .section-obrigado h1 {
+    font-size: 1.5rem;
+  }
+  .section-obrigado h2 {
+    font-size: 0.8rem;
+  }
+  .section-obrigado .btn-whatsapp {
+    padding: 0.8rem 1rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .ordem01 {
+    -webkit-box-ordinal-group: 2 !important;
+        -ms-flex-order: 1 !important;
+            order: 1 !important;
+  }
+  .ordem02 {
+    -webkit-box-ordinal-group: 3 !important;
+        -ms-flex-order: 2 !important;
+            order: 2 !important;
+  }
+  .banner {
+    padding: 2rem;
+  }
+  .banner .chamada .logo {
+    text-align: center;
+  }
+  .banner .chamada .logo img {
+    width: 15rem;
+    margin-left: 0;
+  }
+  .banner .chamada .texto {
+    margin-top: 5rem;
+  }
+  .banner .chamada .texto h1 {
+    font-size: 1.5rem;
+  }
+  .banner .chamada .item-banner {
+    padding: 0.25rem 2rem 0.25rem 2rem;
+  }
+  .banner .chamada .item-banner p {
+    font-size: 1rem;
+  }
+  .banner .chamada .botao-cta {
+    margin-top: 6rem;
+  }
+  .banner .chamada .botao-cta a {
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    padding: 0.75rem 1rem;
+  }
+  .banner .chamada .arrow-down-banner img {
+    width: 2rem;
+  }
+  .banner .formulario {
+    position: relative;
+    top: 2rem;
+    right: 0;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  .banner .formulario .titulo {
+    margin-top: 2rem;
+  }
+  .banner .formulario .titulo h1 {
+    font-size: 1.25rem;
+  }
+  .banner .formulario .titulo h1 span {
+    font-size: 2rem;
+  }
+  .banner .formulario .titulo img {
+    margin-bottom: 0;
+    width: 2rem;
+  }
+  .banner .formulario form .campos label {
+    font-size: 1rem;
+  }
+  .banner .formulario form .campos input {
+    height: 2.5rem;
+  }
+  .banner .formulario form .campos select {
+    height: 2.5rem;
+  }
+  .banner .formulario form .bt-section button {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  .energia {
+    padding: 2rem;
+  }
+  .energia .titulo {
+    margin-top: 5rem;
+  }
+  .energia .titulo h1 {
+    font-size: 1.15rem;
+  }
+  .energia .titulo h1 span {
+    font-size: 3rem;
+  }
+  .energia .item {
+    margin-top: 2rem;
+  }
+  .energia .item .imagem {
+    text-align: center;
+  }
+  .energia .item .texto {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .energia .item .texto h1 {
+    font-size: 1.25rem;
+  }
+  .energia .item .texto h2 {
+    font-size: 1rem;
+  }
+  .energia .item .texto h3 {
+    font-size: 1rem;
+  }
+  .barra-cta {
+    padding: 2rem;
+  }
+  .barra-cta h1 {
+    font-size: 1.25rem;
+  }
+  .barra-cta h2 {
+    font-size: 1rem;
+  }
+  .passos {
+    padding: 2rem 2rem 0;
+  }
+  .passos .titulo h1 {
+    font-size: 1.25rem;
+  }
+  .passos .titulo h1 br {
+    display: none;
+  }
+  .passos .titulo h1 span {
+    font-size: 2.5rem;
+  }
+  .passos .itens .item {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  .passos .itens .item .imagem {
+    padding: 2rem;
+    margin-left: 1rem;
+  }
+  .passos .itens .item .imagem .numero {
+    width: 3rem;
+  }
+  .passos .itens .item .imagem .numero h1 {
+    font-size: 1.5rem;
+  }
+  .passos .itens .item .imagem .numero.direita {
+    left: 6rem;
+    top: 6rem;
+  }
+  .passos .itens .item .imagem .numero.esquerda {
+    right: 6rem;
+    top: 6rem;
+  }
+  .passos .itens .item .texto {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .passos .itens .item .texto h1 {
+    font-size: 1.2rem;
+  }
+  .passos .itens .item .texto p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .solucao {
+    padding: 2rem;
+    background-image: url("../img/solucao-mobile.jpg");
+  }
+  .solucao .titulo {
+    margin-top: 5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+  .solucao .titulo h1 {
+    font-size: 2rem;
+  }
+  .solucao .sub-titulo {
+    margin-left: 0;
+  }
+  .solucao .sub-titulo h2 {
+    font-size: 1.5rem;
+  }
+  .solucao .sub-titulo h3 {
+    font-size: 1.2rem;
+  }
+  .solucao .imagem-solucao {
+    display: block;
+  }
+  .perguntas {
+    padding: 5rem 2rem 5rem;
+  }
+  .perguntas .titulo h1 {
+    font-size: 2rem;
+  }
+  .perguntas .titulo h2 {
+    font-size: 1rem;
+  }
+  .perguntas .item {
+    margin-top: 2rem;
+  }
+  .perguntas .item .accordion-item__button {
+    border: 0.15rem solid #212121;
+    font-size: 0.65rem;
+    padding: 0.5rem;
+  }
+  .perguntas .item .accordion-item__button:after {
+    margin-right: 0.25rem;
+  }
+  .perguntas .item .accordion-item__content p {
+    padding: 0.5rem;
+    font-size: 0.65rem;
+  }
+  .vantagens {
+    padding: 2rem;
+  }
+  .vantagens .titulo h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+  .vantagens .titulo h1 br {
+    display: none;
+  }
+  .vantagens .titulo h2 {
+    font-size: 0.9rem;
+  }
+  .vantagens .titulo h2 img {
+    width: 0.7rem;
+  }
+  .vantagens .itens {
+    margin-top: 3rem;
+  }
+  .vantagens .itens h3 {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item01 {
+    padding: 1rem;
+    min-height: 20rem;
+    margin-bottom: 2rem;
+  }
+  .vantagens .itens .item01 h1 {
+    font-size: 1.5rem;
+  }
+  .vantagens .itens .item01 img {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .vantagens .itens .item01 p {
+    font-size: 1rem;
+  }
+  .vantagens .itens .item02 {
+    padding: 1rem;
+  }
+  .vantagens .itens .item02 img {
+    width: 2rem;
+  }
+  .vantagens .itens .item02 p {
+    font-size: 1rem;
+  }
+  .parceiros {
+    padding: 2rem 2rem 5rem;
+  }
+  .parceiros .titulo h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .parceiros .titulo h2 {
+    font-size: 1rem;
+  }
+  .parceiros .galeria-parceiros {
+    margin-top: 3rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev {
+    top: 40%;
+    left: 0;
+    padding: 0.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-prev:before {
+    width: 1rem;
+  }
+  .parceiros .galeria-parceiros .slick-next {
+    top: 40%;
+    right: 0;
+    padding: 0.5rem;
+  }
+  .parceiros .galeria-parceiros .slick-next:before {
+    width: 1rem;
+  }
+  .parceiros .galeria-parceiros ul.slick-dots {
+    display: none !important;
+  }
+  .footer {
+    font-size: 0.6rem;
+  }
+  .section-obrigado {
+    padding: 2rem;
+    background-position-x: left;
+  }
+  .section-obrigado .logo img {
+    width: 15rem;
+  }
+  .section-obrigado h1 {
+    font-size: 1.5rem;
+  }
+  .section-obrigado h2 {
+    font-size: 0.8rem;
+  }
+  .section-obrigado .btn-whatsapp {
+    padding: 0.8rem 1rem;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
