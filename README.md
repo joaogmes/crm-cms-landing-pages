@@ -13,3 +13,11 @@ Funções:
 - Inclusão de scripts externos (analytics, pixel, etc)
 
 A versão atual do projeto encontra-se em estágio de prototipagem, sendo utilizada apenas como teste Beta de funcioonalidades
+
+# Admin
+
+É nesse painel que fazemos a inserção e manipulação das landing pages
+
+# Gerenciamento
+
+No gerenciamento fazemos o controle dos templates (como admin ou usuário) e o manuseio dos leads e informações cadastrais (como usuário)
