@@ -1,4 +1,4 @@
-# crm-cms-landing-pages
+# Landing Pages 
 
 Script para criação de landing pages padronizadas, seguindo um template master e com conteúdo totalmente personalizavel.
 
